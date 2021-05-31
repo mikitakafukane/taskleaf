@@ -12,6 +12,7 @@ module Taskleaf
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
     config.i18n.default_locale = :ja
+    config.time_zone = 'Asia/Tokyo'
   end
 end
 
