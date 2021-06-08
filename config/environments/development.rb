@@ -59,4 +59,8 @@ Rails.application.configure do
   config.logger.formatter = proc {|severity, timestamp, progname, message|
     "#{timestamp}: #{severity}: #{message}\n"
   }
+  
+  # Store uploaded files on the local file system (see config/storage.yml for options)
+  config.active_storage.service = :local
+
 end
