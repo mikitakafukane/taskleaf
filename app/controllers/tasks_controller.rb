@@ -50,7 +50,6 @@ class TasksController < ApplicationController
   
   def destroy
     @task.destroy
-    head :no_content
   end
   
   # def task_logger
